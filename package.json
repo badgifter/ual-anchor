@@ -25,7 +25,7 @@
     "cache-base": "4.0.2",
     "elliptic": "6.5.4",
     "eosio-signing-request": "^2.5.0",
-    "eosjs": "^22.1.0",
+    "eosjs": "https://github.com/badgifter/eosjs.git",
     "universal-authenticator-library": "0.3.0"
   },
   "resolutions": {

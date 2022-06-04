@@ -12,7 +12,8 @@
     "Johan Nordberg"
   ],
   "scripts": {
-    "prepare": "yarn build",
+    "install": "yarn clean-build",
+    "prepare": "yarn clean-build",
     "build": "tsc --build tsconfig.json",
     "clean-build": "rm -rf dist && yarn build",
     "lint": "tslint -c tslint.json -p tsconfig.json",

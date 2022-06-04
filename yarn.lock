@@ -1143,9 +1143,9 @@ eosio-signing-request@^2.5.0:
     "@greymass/eosio" "^0.6.0"
     tslib "^2.0.3"
 
-"eosjs@https://github.com/badgifter/eosjs.git":
+"eosjs@github:badgifter/eosjs":
   version "22.0.0"
-  resolved "https://github.com/badgifter/eosjs.git#3e537dc6f98bb90c92ac1a3d2488d0a22302a021"
+  resolved "https://codeload.github.com/badgifter/eosjs/tar.gz/6feb3723b4c472c0e086e0f86c18a7d56e5300c9"
   dependencies:
     bn.js "5.2.0"
     elliptic "6.5.4"

@@ -13,7 +13,6 @@
   ],
   "scripts": {
     "install": "yarn clean-build",
-    "prepare": "yarn clean-build",
     "build": "tsc --build tsconfig.json",
     "clean-build": "rm -rf dist && yarn build",
     "lint": "tslint -c tslint.json -p tsconfig.json",
@@ -27,7 +26,7 @@
     "cache-base": "4.0.2",
     "elliptic": "6.5.4",
     "eosio-signing-request": "^2.5.0",
-    "eosjs": "https://github.com/badgifter/eosjs.git",
+    "eosjs": "github:badgifter/eosjs",
     "universal-authenticator-library": "0.3.0"
   },
   "resolutions": {
